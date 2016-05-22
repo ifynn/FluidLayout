@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FluidLayout">
+        <attr name="gravity" >
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="center" value="0x11" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FluidLayout_Layout">
+        <attr name="layout_gravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="center" value="0x11" />
+        </attr>
+    </declare-styleable>
+</resources>
