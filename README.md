@@ -1,3 +1,20 @@
+# FluidLayout简介
+FluidLayout是一个Android平台上的开源控件，提供了流布局的布局方式。
+
+支持的布局属性：
+
+> gravity="center" 单行垂直居中对齐
+
+> gravity="bottom" 单行底部对其
+
+> gravity="top" 单行顶部对其
+
+该控件支持 `ScrollView` 嵌套。
+
+# Snapshot
+![动画展示](https://github.com/ifynn/FluidLayout/blob/master/snapshot/demo_gif.gif)
+![截图](https://github.com/ifynn/FluidLayout/blob/master/snapshot/snapshot.png)
+
 # License
 
 Copyright Fynn
