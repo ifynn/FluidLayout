@@ -41,7 +41,7 @@ public class FluidLayout extends ViewGroup {
         super(context, attrs, defStyleAttr);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.FluidLayout);
-        int index = a.getInt(R.styleable.FluidLayout_gravity, -1);
+        int index = a.getInt(R.styleable.FluidLayout_fl_gravity, -1);
         if (index >= 0) {
             setGravity(index);
         }
@@ -216,7 +216,7 @@ public class FluidLayout extends ViewGroup {
 
             TypedArray a =
                     c.obtainStyledAttributes(attrs, R.styleable.FluidLayout_Layout);
-            gravity = a.getInt(R.styleable.FluidLayout_Layout_layout_gravity, -1);
+            gravity = a.getInt(R.styleable.FluidLayout_Layout_layout_fl_gravity, -1);
             a.recycle();
         }
 
