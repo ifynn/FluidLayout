@@ -9,12 +9,11 @@ group = "com.fynn.fluidlayout"
 version = "1.1"
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 26
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 23
+        minSdkVersion 14
+        targetSdkVersion 26
         versionCode 20160521
         versionName "1.0"
     }
