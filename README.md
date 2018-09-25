@@ -3,16 +3,16 @@ FluidLayout是一个Android平台上的开源控件，提供了流布局的布�
 
 `在 Gradle 项目中添加依赖：`
 ```
-compile 'com.fynn.fluidlayout:fluidlayout:1.0'
+compile 'com.fynn.fluidlayout:fluidlayout:1.1'
 ```
 
 `支持的布局属性：`
 
-> gravity="center" 单行垂直居中对齐
+> fl_gravity="center" 单行垂直居中对齐
 
-> gravity="bottom" 单行底部对其
+> fl_gravity="bottom" 单行底部对其
 
-> gravity="top" 单行顶部对其
+> fl_gravity="top" 单行顶部对其
 
 该控件支持 `ScrollView` 嵌套。
 
