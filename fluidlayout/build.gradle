@@ -6,15 +6,14 @@ apply plugin: 'com.jfrog.bintray'
 def siteUrl = 'https://github.com/ifynn/FluidLayout'
 def gitUrl = 'https://github.com/ifynn/FluidLayout.git'
 group = "com.fynn.fluidlayout"
-version = "1.0"
+version = "1.1"
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 26
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 23
+        minSdkVersion 14
+        targetSdkVersion 26
         versionCode 20160521
         versionName "1.0"
     }
